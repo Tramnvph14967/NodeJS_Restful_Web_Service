@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon ./src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Tramnvph14967/NodeJS_Restful_Web_Service/issues"
   },
-  "homepage": "https://github.com/Tramnvph14967/NodeJS_Restful_Web_Service#readme"
+  "homepage": "https://github.com/Tramnvph14967/NodeJS_Restful_Web_Service#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }
