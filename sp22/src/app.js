@@ -16,6 +16,16 @@ app.listen(PORT, () => {
   console.log(`Server đang chạy cổng ${PORT}`);
 });
 
+
+
+
+
+
+
+
+
+
+
 // const http = require('http');
 // const server = http.createServer((req, res) => {
 //     console.log('url', req.url);
