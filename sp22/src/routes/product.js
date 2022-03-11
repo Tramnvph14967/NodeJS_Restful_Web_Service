@@ -1,5 +1,7 @@
 import { Router } from 'express';
-const { checkAuth } = require('../middleware/checkAuth');
+// const { checkAuth } = require('../middleware/checkAuth');
+import { checkAuth } from '../middleware/checkAuth';
+
 
 const router = Router();
 
