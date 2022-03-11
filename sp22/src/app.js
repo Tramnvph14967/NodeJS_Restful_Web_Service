@@ -1,9 +1,10 @@
-const express = require("express");
-const productRouter = require('./routes/product');
+// const express = require("express");
+// const productRouter = require('./routes/product');
+
+import express from 'express';
+import productRouter from './routes/product';
 
 const app = express();
-
-
 // middleware
 app.use(express.json());
 
@@ -15,7 +16,6 @@ const PORT = 3001;
 app.listen(PORT, () => {
   console.log(`Server đang chạy cổng ${PORT}`);
 });
-
 
 
 
