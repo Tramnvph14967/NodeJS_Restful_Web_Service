@@ -3,7 +3,7 @@
 
 import express from 'express';
 import productRouter from './routes/product';
-
+import mongoose from 'mongoose';
 
 
 
@@ -16,9 +16,8 @@ app.use(express.json());
 app.use("/api", productRouter);
 
 //connect database
-
-
-
+mongoose.connect("mongodb://localhost:27017/we2016")
+  .then(() => console.log("connect db thành công"))
 
 // Connect
 const PORT = 3001;
