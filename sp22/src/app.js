@@ -15,9 +15,9 @@ app.use(express.json());
 // Routing
 app.use("/api", productRouter);
 
-//connect database
-mongoose.connect("mongodb://localhost:27017/we2016")
-  .then(() => console.log("connect db thành công"))
+// connect database
+mongoose.connect("mongodb://localhost:27017/we16306")
+    .then(() => console.log("Connect db thanh cong"))
 
 // Connect
 const PORT = 3001;
