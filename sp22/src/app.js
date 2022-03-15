@@ -13,7 +13,7 @@ app.use(express.json());
 app.use("/api", productRouter);
 
 // connect database
-mongoose.connect("mongodb://localhost:27017/we16306")
+mongoose.connect("mongodb://127.0.0.1:27017/we16306")
     .then(() => console.log("Connect db thanh cong"))
     .catch((error) => console.log(error))
 
