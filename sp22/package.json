@@ -17,9 +17,11 @@
   },
   "homepage": "https://github.com/Tramnvph14967/NodeJS_Restful_Web_Service#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.3",
     "mongoose": "^6.2.6",
-    "mongose": "^0.0.2-security"
+    "mongose": "^0.0.2-security",
+    "slugify": "^1.6.5"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
