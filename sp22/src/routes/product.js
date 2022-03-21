@@ -15,4 +15,3 @@ router.put("/product/:id", update);
 
 export default router;
 
-// module.exports = router;

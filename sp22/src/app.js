@@ -25,14 +25,12 @@ app.use("/api", categoryRouter);
 
 
 
-// connect database
+// kết nối với data
 mongoose.connect("mongodb://127.0.0.1:27017/we16306")
     .then(() => console.log("Connect db thanh cong"))
     .catch((error) => console.log(error))
 
-
-    
-// Connect
+// Connect data
 const PORT = 3001;
 app.listen(PORT, () => {
   console.log(`Server đang chạy cổng ${PORT}`);
