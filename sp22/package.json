@@ -21,7 +21,8 @@
     "express": "^4.17.3",
     "mongoose": "^6.2.6",
     "mongose": "^0.0.2-security",
-    "slugify": "^1.6.5"
+    "slugify": "^1.6.5",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

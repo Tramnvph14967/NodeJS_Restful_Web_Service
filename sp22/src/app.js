@@ -2,16 +2,12 @@
 import express from 'express';
 import productRouter from './routes/product';
 import categoryRouter from './routes/category';
-
-
+import authRouter from './routes/auth'
 
 import mongoose from 'mongoose';
 import cors from 'cors';
 
-
-
 const app = express();
-
 
 
 // middleware
@@ -19,10 +15,12 @@ app.use(express.json());
 app.use(cors());
 
 
+
+
 // Routing
 app.use("/api", productRouter);
 app.use("/api", categoryRouter);
-
+app.use("/api", authRouter);
 
 
 // kết nối với data
@@ -35,3 +33,4 @@ const PORT = 3001;
 app.listen(PORT, () => {
   console.log(`Server đang chạy cổng ${PORT}`);
 });
+// localhost:27017
